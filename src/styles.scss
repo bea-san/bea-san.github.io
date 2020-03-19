@@ -15,6 +15,12 @@
     color: white;
     letter-spacing: .3px;
 }
+
+.btn-dark {
+    background-color: #588068;
+    border-color: #588068;
+}
+
 li{
     list-style-type: none;
     display: inline-block;
@@ -29,20 +35,16 @@ hr {
     background-color: #292b2c;
 }
 
-a{
-    color: #292b2c;
-}
-
 p {
     font-size: small;
 }
 
 .footer {
-    position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     padding: 1rem;
+    background-color: #588068;
 }
 
 .icons-align{
@@ -73,3 +75,18 @@ a:hover {
     background-color: #588068;
     color: #fff;
 }
+
+.carousel-inner img {
+    height: 70%;
+    width: auto;
+}
+.carousel {
+    width: auto;
+    height: 50%;
+}
+.carousel-item {
+    text-align: center;
+}
+#demo {
+    background: #f5f3f5;
+  }
