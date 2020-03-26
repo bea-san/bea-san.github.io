@@ -93,3 +93,10 @@ a:hover {
     width: auto;
     height: 275px;
 }
+
+.fake-link {
+  cursor: pointer;
+}
+.fake-link:hover {
+  text-decoration: underline;
+}
