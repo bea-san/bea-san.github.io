@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { Error404Component } from './error404/error404.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { LoginComponent } from './pages-login/login/login.component';
+import { ProductsPromoComponent } from './products-promo/products-promo.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    Error404Component
+    Error404Component,
+    LoginComponent,
+    ProductsPromoComponent
   ],
   imports: [
     BrowserModule,
